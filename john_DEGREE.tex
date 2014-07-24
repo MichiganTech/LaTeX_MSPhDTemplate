@@ -1,0 +1,45 @@
+%
+% john_DEGREE.tex
+% The main LaTeX file, referred to as $(MAINFILE).tex in the Makefile.
+% This must be the ONLY .tex file in the main folder.
+
+%
+% Document class
+\documentclass[Degree=PhD]{MichiganTech}
+
+%
+% Document begins
+\begin{document}
+
+%
+% Front matter
+\input{Personalize/Personalize}
+\titlepage             % Required
+\signaturepage         % Required
+\dedication            % Optional
+\contentsfigurestables % Required
+\preface               % Optional
+\acknowledgments       % Optional
+\abstract              % Required
+
+%
+% Chapters (add more, if need be)
+\include{Chapters/Chapter1}
+\include{Chapters/Chapter2}
+\include{Chapters/Chapter3}
+
+%
+% References
+\include{References/References}
+
+%
+% Appendix (add more, if need be)
+\begin{appendices}
+  \include{Appendices/AppendixA}
+  \include{Appendices/AppendixB}
+  \include{Appendices/AppendixC}
+\end{appendices}
+
+%
+% Document ends
+\end{document}
