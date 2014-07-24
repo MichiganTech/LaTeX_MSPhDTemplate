@@ -28,7 +28,7 @@ How does one compile?
 Got questions? Need help?
 -------------------
 
-DO NOT send your questions, comments and/or concerns about this template to Graduate School. Instead, please contact the author.
+DO NOT send your questions, comments and/or concerns about this template to the Graduate School. Instead, please contact the author.
 
 
 Author
