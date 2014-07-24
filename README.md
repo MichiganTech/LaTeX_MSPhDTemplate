@@ -49,8 +49,8 @@ What all does one need to get started?
      1. [TeXLive](http://www.tug.org/texlive/) for Linux and Mac, and
         [MiKTeX](http://miktex.org/) for Windows.
 
-     2. [TeXMaker](http://www.xm1math.net/texmaker/) for
-        Linux, Mac and Windows.
+     2. [TeXMaker](http://www.xm1math.net/texmaker/) -- a LaTeX-aware text 
+        editor -- for Linux, Mac and Windows.
 
   2. This template in its entirety.
 
