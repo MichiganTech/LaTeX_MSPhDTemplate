@@ -89,7 +89,7 @@ Which files should one edit?
 
    9. Update ```MichiganTech.cls``` iff there is a need, and iff there is an understanding of how the LaTeX class works.
 
-  10. Update ```Packages/*.sty``` iff there is a need, and iff there is an understanding of how the LaTeX style file works.
+   10. Update ```Packages/*.sty``` iff there is a need, and iff there is an understanding of how the LaTeX style file works.
 
 How does one compile?
 -------------------
