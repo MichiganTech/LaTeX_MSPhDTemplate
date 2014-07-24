@@ -62,7 +62,6 @@
 \ProcessKeyvalOptions*
 \RequirePackage{Packages/\MichiganTech@Degree}
 
-
 %
 % Page format
 \setlength{\oddsidemargin}{0.50in}  % Left side margin for odd numbered pages
@@ -385,7 +384,6 @@
   \thispagestyle{plain}
   \phantomsection
   \section*{Dedication}
-  \addcontentsline{toc}{chapter}{Dedication}
   \input{FrontMatter/Dedication}
   \newpage
 }
@@ -423,3 +421,4 @@
   \listoftables
   \newpage
 }
+

@@ -22,7 +22,7 @@
 
 #
 # File suffixes
-.SUFFIXES: .tex .dvi .eps .ps .pdf .jpg .jpg.bb .gif .gif.bb
+.SUFFIXES: .tex .dvi .eps .ps .pdf .jpg .gif
 
 #
 # Basic variables
@@ -108,40 +108,38 @@ TMPFILES = acr \
 
 #
 # Default target
-all: $(MAINFILE).pdf clean
+all:
+	make clean
+	make dvi
+	make ps
+	make pdf
+	make clean
 
-$(MAINFILE): $(MAINFILE).dvi
+dvi: $(MAINFILE).tex $(TEXFILES)
+	@echo
+	@echo "  LaTeX --> DVI"
+	$(LATEX)  $(MAINFILE)
+	$(LATEX)  $(MAINFILE)
+	$(BIBTEX) $(MAINFILE)
+	$(BIBTEX) $(MAINFILE)
+	$(LATEX)  $(MAINFILE)
+	$(LATEX)  $(MAINFILE)
 
-$(MAINFILE).aux:
-	-if [ ! -f $(MAINFILE).aux ]; then touch $(MAINFILE).aux; fi
+ps: $(MAINFILE).dvi
+	@echo
+	@echo "  DVI --> PS"
+	@echo
+	$(DVIPS) -R0 -Ppdf -t letter -o $(MAINFILE).ps $<
+	@echo
+	@echo "  Fixing any Gnuplot mess"
+	@echo
+	$(SED) -i '/^SDict begin \[$$/,/^end$$/d' $(MAINFILE).ps
 
-$(MAINFILE).dvi: $(MAINFILE).tex $(STYFILE) $(TEXFILES)
+pdf: $(MAINFILE).ps
 	@echo
-	@echo "  Making DVI document"
-	-$(LATEX)  $(MAINFILE)
-	-$(LATEX)  $(MAINFILE)
-	-$(BIBTEX) $(MAINFILE)
-	-$(BIBTEX) $(MAINFILE)
-	-$(LATEX)  $(MAINFILE)
-	-$(LATEX)  $(MAINFILE)
-
-$(MAINFILE).bbl: $(MAINFILE).bib
-	-if [ ! -f $(MAINFILE).aux ]; then touch $(MAINFILE).aux; fi
-	-$(BIBTEX) $(MAINFILE)
-
-$(MAINFILE).pdf: $(MAINFILE).ps
+	@echo "  PS --> PDF (embedded fonts)"
 	@echo
-	@echo "  Making PDF document (embedded fonts)"
-	@echo
-	$(PS2PDF) -dPDFSETTINGS=/prepress -dSubsetFonts=true -dEmbedAllFonts=true -dMaxSubsetPct=100 $< $@
-	@echo
-	@echo
-
-$(MAINFILE).ps: $(MAINFILE).dvi
-	@echo
-	@echo "  Making PostScript document"
-	@echo
-	$(DVIPS) -R0 -Ppdf -G0 -t letter -o $@ $<
+	$(PS2PDF) -dPDFSETTINGS=/prepress -dSubsetFonts=true -dEmbedAllFonts=true -dMaxSubsetPct=100 $< $(MAINFILE).pdf
 	@echo
 	@echo
 
