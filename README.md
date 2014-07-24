@@ -30,15 +30,18 @@ Apart from modularizing the document preparation process, and producing title
 and signature pages, etc. in compliance with the Graduate School requirements, 
 the template provides the following:
 
-  1. Facility to accommodate up to two advisors.
+  1. Ability to accommodate up to two advisors.
 
-  2. Facility to accommodate up to four advisory committee members.
+  2. Ability to accommodate up to four advisory committee members.
 
   3. Embdedded fonts -- the PDF looks the same when printed as it looks 
      when it’s viewed on computer.
 
   4. If using Linux/UNIX or Mac, the process of generating the PDF could 
      be as simple as typing ```make```.
+
+  5. Ability to make a timestamp-based snapshot of the entire folder via
+     the command ```make snapshot```.
 
 
 What all does one need to get started?
@@ -59,6 +62,16 @@ What all does one need to get started?
 
 Which files should one edit?
 -------------------
+
+  1. First off, rename (not just copy over) ```john_DEGREE.tex``` by
+     substituting ```john``` with your Michigan Tech ISO username, and
+     ```DEGREE``` with either ```MS``` or ```PhD```.
+
+  2. Open the renamed ```john_DEGREE.tex```
+
+     A. Iff writing a MS thesis, then change 
+        ```\documentclass[Degree=PhD]{MichiganTech}``` to
+        ```\documentclass[Degree=MS]{MichiganTech}``` 
 
 
 
