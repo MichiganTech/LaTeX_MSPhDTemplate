@@ -38,7 +38,7 @@ the template provides the following:
      when it’s viewed on computer.
 
   4. If using Linux/UNIX or Mac, the process of generating the PDF could 
-     be as simple as typing make.
+     be as simple as typing ```make```.
 
 
 What all does one need to get started?
