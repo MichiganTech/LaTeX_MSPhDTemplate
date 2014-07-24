@@ -9,7 +9,7 @@
 
 %
 % Class name and a brief description
-\ProvidesClass{MichiganTech}[2014/07/23 Michigan Tech Thesis/Dissertation Class]
+\ProvidesClass{MichiganTech}[2014/07/23 Thesis/Dissertation Class]
 
 %
 % Document class (and options) to load
