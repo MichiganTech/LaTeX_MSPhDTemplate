@@ -71,9 +71,11 @@ Which files should one edit?
 
      1. Iff writing a MS thesis, then change ```\documentclass[Degree=PhD]{MichiganTech}``` to ```\documentclass[Degree=MS]{MichiganTech}```.
 
-     2. Comment the lines marked ```% Optional``` under ```Front Matter```
-        section if there is a need.
+     2. Comment the lines marked ```% Optional``` under ```Front Matter``` section if there is a need.
 
+     3. Remove some or add more chapters under ```Chapters``` section as needed.
+
+     4. Remove some or add more appendices under ```Appendices``` section as needed.
 
 How does one compile?
 -------------------
