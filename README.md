@@ -6,13 +6,13 @@ What is this?
 
 A LaTeX template for writing MS thesis/PhD dissertation (for double-sided printing) in compliance with the guidelines from the Graduate School in Michigan Technological University.
 
-Using this template is not a substitute for learning of LaTeX and/or understanding its usage. Also, using this template does not necessarily guarantee that the Graduate School will approve the thesis/dissertation. The Graduate School reserves every right to request changes in the future that are not covered by this template yet. 
-
 
 Disclaimer
 -------------------
 
 This and other associated files are distributed in the hope that they will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.
+
+Using this template is not a substitute for learning of LaTeX and/or understanding its usage. Also, using this template does not necessarily guarantee that the Graduate School will approve the thesis/dissertation. The Graduate School reserves every right to request changes in the future that are not covered by this template yet. 
 
 
 Which files should one edit?
