@@ -89,7 +89,7 @@ Which files should one edit?
 
    9. Place all figures in ```Figures``` folder.
 
-  10. Update ```MichiganTech.cls``` and/or ```Packages/*.sty``` iff there is a need, and iff there is an understanding of how the LaTeX class/style file works.
+   10. Update ```MichiganTech.cls``` and/or ```Packages/*.sty``` iff there is a need, and iff there is an understanding of how the LaTeX class/style file works.
 
 
 How does one compile?
