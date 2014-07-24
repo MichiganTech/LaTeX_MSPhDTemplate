@@ -12,7 +12,7 @@ Disclaimer
 
 This and other associated files are distributed in the hope that they will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.
 
-Using this template is not a substitute for learning of LaTeX and/or understanding its usage. Also, using this template does not necessarily guarantee that the Graduate School will approve the thesis/dissertation. The Graduate School reserves every right to request changes in the future that are not covered by this template yet. 
+Using this template is not a substitute for learning LaTeX and/or understanding its how it works. Also, using this template does not necessarily guarantee that the Graduate School will approve the thesis/dissertation. The Graduate School reserves every right to request changes in the future that are not covered by this template yet. 
 
 
 Which files should one edit?
