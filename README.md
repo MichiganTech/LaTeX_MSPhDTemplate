@@ -69,10 +69,12 @@ Which files should one edit?
 
   2. Open the renamed ```john_DEGREE.tex```
 
-     A. Iff writing a MS thesis, then change 
+     1. Iff writing a MS thesis, then change 
         ```\documentclass[Degree=PhD]{MichiganTech}``` to
-        ```\documentclass[Degree=MS]{MichiganTech}``` 
+        ```\documentclass[Degree=MS]{MichiganTech}```.
 
+     2. Comment the lines marked ```% Optional``` under ```Front Matter```
+        section if there is a need.
 
 
 How does one compile?
