@@ -50,7 +50,7 @@ What all does one need to get started?
   1. As complete an installation of LaTeX as possible.
 
      1. [TeXLive](http://www.tug.org/texlive/) for Linux and Mac, and
-        [MiKTeX](http://miktex.org/) for Windows.
+        [MiKTeX](http://miktex.org/) for Windows. 
 
      2. [TeXMaker](http://www.xm1math.net/texmaker/) -- a LaTeX-aware text 
         editor -- for Linux, Mac and Windows.
@@ -76,6 +76,8 @@ Which files should one edit?
      3. Remove some or add more chapters under ```Chapters``` section as needed.
 
      4. Remove some or add more appendices under ```Appendices``` section as needed.
+
+  3. Update ```Personalize/Personalize.tex``` with relevant information.
 
 How does one compile?
 -------------------
