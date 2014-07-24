@@ -27,17 +27,27 @@
 #
 # Basic variables
 SHELL    = /bin/sh
+CP       = cp
 RM       = rm
 MV       = mv
 AWK      = awk
 SED      = sed
+ZIP      = zip
+MKDIR    = mkdir
+SLEEP    = sleep
 LATEX    = latex
 BIBTEX   = bibtex
 DVIPS    = dvips
 DVIPDF   = dvipdf
 PS2PDF   = ps2pdf
-SLEEP    = sleep
 MAINFILE = $(shell ls *_*.tex | awk -F '.' '{ print $$1}')
+DATETIME = $(shell date +"%Y%m%d_%H%M%S")
+
+#
+# List of class and style files
+CLASSFILE  = MichiganTech.cls
+STYLEFILES = Packages/MS.sty  \
+             Packages/PhD.sty
 
 #
 # List of folders
@@ -115,7 +125,7 @@ all:
 	make pdf
 	make clean
 
-dvi: $(MAINFILE).tex $(TEXFILES)
+dvi: $(MAINFILE).tex $(TEXFILES) $(CLASSFILE) $(STYLEFILES)
 	@echo
 	@echo "  LaTeX --> DVI"
 	$(LATEX)  $(MAINFILE)
@@ -141,6 +151,15 @@ pdf: $(MAINFILE).ps
 	@echo
 	$(PS2PDF) -dPDFSETTINGS=/prepress -dSubsetFonts=true -dEmbedAllFonts=true -dMaxSubsetPct=100 $< $(MAINFILE).pdf
 	@echo
+	@echo
+
+snapshot:
+	@echo
+	@echo "  Making a snapshot of all files and folders"
+	$(MKDIR) -p Snapshots/$(DATETIME)
+	rsync -a --exclude '*.swp' --exclude '.git' --exclude 'Snapshots' ./ Snapshots/$(DATETIME)/
+	cd Snapshots/ ; $(ZIP) -qr $(DATETIME).zip $(DATETIME)
+	cd Snapshots/ ; $(RM) -rf $(DATETIME)
 	@echo
 
 clean:
