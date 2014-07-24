@@ -4,9 +4,7 @@ LaTeX_MSPhDTemplate
 Disclaimer
 -------------------
 
-This and other associated files are distributed in the hope that they will 
-be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of 
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+This and other associated files are distributed in the hope that they will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.
 
 What?
 -------------------
