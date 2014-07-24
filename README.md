@@ -48,13 +48,13 @@ What all does one need to get started?
 
      A. Foundation:
 
-        1. [TeXLive](http://www.tug.org.texlive/ "TeXLive") for Linux and Mac
+        1. TeXLive (http://www.tug.org/texlive/) for Linux and Mac
 
-        2. [MiKTeX](http://miktex.org/ "MiKTeX") for Windows.
+        2. MiKTeX (http://miktex.org/) for Windows.
 
      B. Text editor:
 
-        1. [TeXMaker](http://www.xm1math.net/texmaker/ "TeXMaker") for
+        1. TeXMaker (http://www.xm1math.net/texmaker/) for
            Linux, Mac and Windows.
 
   2. This template in its entirety.
