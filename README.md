@@ -79,6 +79,13 @@ Which files should one edit?
 
   3. Update ```Personalize/Personalize.tex``` with relevant information.
 
+  4. Update ```Chapters/Chapter?.tex``` with relevant information.
+
+  5. Save all references in ```References/References.bib``` with relevant information.
+
+  6. Update ```Appendices/Appendix?.tex``` with relevant information.
+
+
 How does one compile?
 -------------------
 
