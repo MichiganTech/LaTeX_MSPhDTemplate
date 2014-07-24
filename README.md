@@ -48,9 +48,9 @@ What all does one need to get started?
 
      A. Foundation:
 
-        1. TeXLive (http://www.tug.org/texlive/) for Linux and Mac
+        1. TeXLive http://www.tug.org/texlive/ for Linux and Mac
 
-        2. MiKTeX (http://miktex.org/) for Windows.
+        2. MiKTeX http://miktex.org/ for Windows.
 
      B. Text editor:
 
