@@ -77,19 +77,20 @@ Which files should one edit?
 
    3. Update ```Personalize/Personalize.tex``` with relevant information.
 
-   4. Update ```Chapters/Chapter?.tex``` with relevant information.
+   4. Update ```FrontMatter/Abstract.tex```, ```FrontMatter/Acknowledgments.tex```, ```FrontMatter/Dedication.tex``` and ```FrontMatter/Preface.tex``` with relevant information.
 
-   5. Save all references in ```References/References.bib``` with relevant information. 
+   5. Update ```Chapters/Chapter?.tex``` with relevant information.
 
-   6. Change ```\bibliographystyle{jpc}``` in ```References/References.tex``` to something else to produce the required format for references.
+   6. Save all references in ```References/References.bib``` with relevant information. 
 
-   7. Update ```Appendices/Appendix?.tex``` with relevant information.
+   7. Change ```\bibliographystyle{jpc}``` in ```References/References.tex``` to something else to produce the required format for references.
 
-   8. Place all figures in ```Figures``` folder.
+   8. Update ```Appendices/Appendix?.tex``` with relevant information.
 
-   9. Update ```MichiganTech.cls``` iff there is a need, and iff there is an understanding of how the LaTeX class works.
+   9. Place all figures in ```Figures``` folder.
 
-   10. Update ```Packages/*.sty``` iff there is a need, and iff there is an understanding of how the LaTeX style file works.
+  10. Update ```MichiganTech.cls``` and/or ```Packages/*.sty``` iff there is a need, and iff there is an understanding of how the LaTeX class/style file works.
+
 
 How does one compile?
 -------------------
