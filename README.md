@@ -81,7 +81,7 @@ Which files should one edit?
 
   4. Update ```Chapters/Chapter?.tex``` with relevant information.
 
-  5. Save all references in ```References/References.bib``` with relevant information.
+  5. Save all references in ```References/References.bib``` with relevant information. Change ```\bibliographystyle{jpc}``` to something else to produce the required format for references.
 
   6. Update ```Appendices/Appendix?.tex``` with relevant information.
 
