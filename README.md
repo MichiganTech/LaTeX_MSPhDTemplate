@@ -18,19 +18,17 @@ Using this template is not a substitute for learning LaTeX and/or understanding 
 Features
 -------------------
 
-Apart from modularizing the document preparation process, and producing title and signature pages in compliance with the Graduate School requirements, the template provides the following:
+Apart from modularizing the document preparation process, and producing title and signature pages, etc. in compliance with the Graduate School requirements, the template provides the following:
 
   1. Facility to accommodate up to two advisors
 
   2. Facility to accommodate up to four advisory committee members
 
-Page Numbers in Table of Contents (List of Figures, List of Tables and Index as well), Table/Figure/Bibliography references are all hyperlinks
-With double sided printing, it automatically inserts a blank page (if necessary) to start the new chapter on an odd numbered page
-Appropriate margins for single/double sided printing
-Fonts are embedded – the PDF looks the same when printed as it looks when it’s viewed on computer 
-Many other features that one can learn about by reading the corresponding style files
-If using Linux/UNIX or may be even Mac, the entire process of compiling/processing and generating PDF could be as simple as typing make – more information about this magical make is in a subsequent section
-May even save you a few extra nights of sleep that you would have otherwise spent in making these things work by yourself
+  3. Embdedded fonts -- the PDF looks the same when printed as it looks 
+     when it’s viewed on computer 
+
+  4. If using Linux/UNIX or Mac, the entire process of compiling/processing 
+     and generating PDF could be as simple as typing ``make`` 
 
 
 Which files should one edit?
