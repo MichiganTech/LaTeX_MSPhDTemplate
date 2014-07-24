@@ -1,4 +1,4 @@
-LaTeX_MSPhDTemplate
+Michigan Tech MS/PhD LaTeX Template
 ================
 
 What is this?
