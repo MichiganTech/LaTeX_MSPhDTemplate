@@ -46,15 +46,15 @@ What all does one need to get started?
 
   1. As complete an installation of LaTeX as possible.
 
-     1. Foundation:
+     A. Foundation:
 
-        A. TeXLive for Linux and/or Mac.
+        [TeXLive](http://www.tug.org.texlive/ "TeXLive") for Linux and Mac;
+        [MiKTeX](http://miktex.org/ "MiKTeX") for Windows.
 
-        B. [MiKTeX](http://miktex.org "MiKTeX") for Windows.
+     B. Text editor:
 
-     2. Text editor:
-
-        A. TeXMaker for Linux, Mac and/or Windows.
+        [TeXMaker](http://www.xm1math.net/texmaker/ "TeXMaker") for
+        Linux, Mac and Windows.
 
   2. This template in its entirety.
 
