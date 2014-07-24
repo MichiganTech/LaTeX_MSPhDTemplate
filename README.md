@@ -46,12 +46,12 @@ What all does one need to get started?
 
   1. As complete an installation of LaTeX as possible.
 
-        1. TeXLive http://www.tug.org/texlive/ for Linux and Mac
+     TeXLive http://www.tug.org/texlive/ for Linux and Mac
 
-        2. MiKTeX http://miktex.org/ for Windows.
+     MiKTeX http://miktex.org/ for Windows.
 
-        3. TeXMaker (http://www.xm1math.net/texmaker/) for
-           Linux, Mac and Windows.
+     TeXMaker (http://www.xm1math.net/texmaker/) for
+     Linux, Mac and Windows.
 
   2. This template in its entirety.
 
