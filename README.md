@@ -192,7 +192,7 @@ The template provides the following 140 named colors (given with their hexadecim
 | #556B2F  | DarkOliveGreen  | #F5F5DC | Beige                |
 | #5F9EA0  | CadetBlue       | #F5F5F5 | WhiteSmoke           |
 | #6495ED  | CornflowerBlue  | #F5FFFA | MintCream            |
-| #66CDAA  | MediumAquaMarine | #F8F8FF | GhostWhite           |
+| #66CDAA  | MediumAquaMarine | #F8F8FF | GhostWhite          |
 | #696969  | DimGray         | #FA8072 | Salmon               |
 | #6A5ACD  | SlateBlue       | #FAEBD7 | AntiqueWhite         |
 | #6B8E23  | OliveDrab       | #FAF0E6 | Linen                |
