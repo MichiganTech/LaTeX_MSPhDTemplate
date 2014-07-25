@@ -155,7 +155,8 @@ dvips -Ppdf -o %.ps %.dvi |
 What if one needs colored text?
 -------------------
 
-The template provides the following 140 named colors (given with their hexadecimal notation; color scheme adopted from http://www.w3schools.com/html/html_colorvalues.asp):
+The template provides the following 140 named colors (given with their hexadecimal notation; color scheme adopted from http://www.w3schools.com/html/html_colorvalues.asp). Example usage: ```\textcolor{Color}{colored text}```.
+
 
 | Hex code | Color             | Hex code | Color                |
 |:---------|:------------------|:---------|:---------------------|
@@ -229,8 +230,6 @@ The template provides the following 140 named colors (given with their hexadecim
 | #B0E0E6  | PowderBlue        | #FFFFE0  | LightYellow          |
 | #B22222  | FireBrick         | #FFFFF0  | Ivory                |
 | #B8860B  | DarkGoldenRod     | #FFFFFF  | White                |
-
-Example usage: ```\textcolor{Color}{colored text}```.
 
 
 Got questions? Need help?
