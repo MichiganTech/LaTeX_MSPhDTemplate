@@ -121,7 +121,7 @@ dvips -R0 -Ppdf -t letter -o john_DEGREE.ps john_DEGREE.dvi
 ps2pdf -dPDFSETTINGS=/prepress -dSubsetFonts=true -dEmbedAllFonts=true -dMaxSubsetPct=100 john_DEGREE.ps john_DEGREE.pdf
 ```
 
-**Mac using ```TeXMaker`` application:**
+**Mac using ```TeXMaker``` application:**
 
 Navigate to ```TeXMaker » Preferences » Quick Build » Quick Build Command » User``` and enter the following
 
@@ -136,7 +136,7 @@ Navigate to ```TeXMaker » Preferences » Quick Build » Quick Build Command » 
 "/usr/local/bin/ps2pdf" -dPDFSETTINGS=/prepress -dEmbedAllFonts=true -dSubsetFonts=true -dMaxSubsetPct=100 %.ps
 ```
 
-**Windows using ```TeXMaker`` application:**
+**Windows using ```TeXMaker``` application:**
 
 Navigate to ```TeXMaker » Options » Configure TeXMaker » Quick Build » Quick Build Command » User``` (check the path to ```gs2in32c.exe```) and enter the following
 
