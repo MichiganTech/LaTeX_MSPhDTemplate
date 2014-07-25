@@ -68,38 +68,42 @@ What all does one need to get started?
 Which files should one edit?
 -------------------
 
-   1. Rename (not just copy over) ```john_DEGREE.tex``` by substituting ```john``` with your Michigan Tech ISO username, and ```DEGREE``` with either ```MS``` or ```PhD```.
+  1. Rename (not just copy over) ```john_DEGREE.tex``` by substituting ```john``` with your Michigan Tech ISO username, and ```DEGREE``` with either ```MS``` or ```PhD```.
 
-   2. Open the renamed ```john_DEGREE.tex```
+  2. Open the renamed ```john_DEGREE.tex```
 
-      1. Iff writing a MS thesis, then change ```\documentclass[Degree=PhD]{MichiganTech}``` to ```\documentclass[Degree=MS]{MichiganTech}```.
+     1. Iff writing a MS thesis, then change ```\documentclass[Degree=PhD]{MichiganTech}``` to ```\documentclass[Degree=MS]{MichiganTech}```.
 
-      2. Comment the lines marked ```% Optional``` under ```Front Matter``` section if there is a need.
+     2. Comment the lines marked ```% Optional``` under ```Front Matter``` section if there is a need.
 
-      3. Remove some or add more chapters under ```Chapters``` section as needed.
+     3. Remove some or add more chapters under ```Chapters``` section as needed.
 
-      4. Remove some or add more appendices under ```Appendices``` section as needed.
+     4. Remove some or add more appendices under ```Appendices``` section as needed.
 
-   3. Update ```Personalize/Personalize.tex``` with relevant information.
+  3. Update ```Personalize/Personalize.tex``` with relevant information.
 
-   4. Update ```FrontMatter/Abstract.tex```, ```FrontMatter/Acknowledgments.tex```, ```FrontMatter/Dedication.tex``` and ```FrontMatter/Preface.tex``` with relevant information.
+  4. Update ```FrontMatter/Abstract.tex```, ```FrontMatter/Acknowledgments.tex```, ```FrontMatter/Dedication.tex``` and ```FrontMatter/Preface.tex``` with relevant information.
 
-   5. Update ```Chapters/Chapter?.tex``` with relevant information.
+  5. Update ```Chapters/Chapter?.tex``` with relevant information.
 
-   6. Save all references in ```References/References.bib``` with relevant information. 
+  6. Save all references in ```References/References.bib``` with relevant information. 
 
-   7. Change ```\bibliographystyle{jpc}``` in ```References/References.tex``` to something else to produce the required format for references.
+  7. Change ```\bibliographystyle{jpc}``` in ```References/References.tex``` to something else to produce the required format for references.
 
-   8. Update ```Appendices/Appendix?.tex``` with relevant information.
+  8. Update ```Appendices/Appendix?.tex``` with relevant information.
 
-   9. Place all figures in ```Figures``` folder.
+  9. Place all figures in ```Figures``` folder.
 
-   10. Update ```MichiganTech.cls``` and/or ```Packages/*.sty``` iff there is a need, and iff there is an understanding of how the LaTeX class/style file works.
+  10. Update ```MichiganTech.cls``` and/or ```Packages/*.sty``` iff there is a need, and iff there is an understanding of how the LaTeX class/style file works.
 
 
 How does one compile?
 -------------------
 
+  1. Linux (or Mac) from the command line
+
+    ```cd LaTeX_MSPhDTemplate```
+    ```make```
 
 
 Got questions? Need help?
