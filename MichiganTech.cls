@@ -57,6 +57,9 @@
 \RequirePackage[bookmarks,linktocpage]{hyperref}
 \RequirePackage{breakurl}
 
+%
+% Process Degree=MS|PhD option in document class and load appropriate style 
+% file. This, in turn, will include the appropriate title and signature pages.
 \RequirePackage{kvoptions}
 \DeclareStringOption[]{Degree}[]
 \ProcessKeyvalOptions*
@@ -421,4 +424,3 @@
   \listoftables
   \newpage
 }
-

@@ -230,6 +230,7 @@ The template provides the following 140 named colors (given with their hexadecim
 | #B22222  | FireBrick       | #FFFFF0 | Ivory                |
 | #B8860B  | DarkGoldenRod   | #FFFFFF | White                |
 
+
 Got questions? Need help?
 -------------------
 
