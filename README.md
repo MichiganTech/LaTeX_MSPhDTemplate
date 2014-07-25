@@ -103,8 +103,22 @@ How does one compile?
   1. Linux (or Mac) from the command line, using ```Makefile```
 
 ```
-        cd LaTeX_MSPhDTemplate
-        make
+cd LaTeX_MSPhDTemplate
+make
+```
+
+  2. Linux (or Mac) from the command line, without using ```Makefile```
+
+```
+cd LaTeX_MSPhDTemplate
+latex john_DEGREE
+latex john_DEGREE
+bibtex john_DEGREE
+bibtex john_DEGREE
+latex john_DEGREE
+latex john_DEGREE
+dvips -R0 -Ppdf -t letter -o john_DEGREE.ps john_DEGREE.dvi
+ps2pdf -dPDFSETTINGS=/prepress -dSubsetFonts=true -dEmbedAllFonts=true -dMaxSubsetPct=100 john_DEGREE.ps john_DEGREE.pdf
 ```
 
 
