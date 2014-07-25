@@ -102,7 +102,7 @@ How does one compile?
 
   1. Linux (or Mac) from the command line
 
-    ```cd LaTeX_MSPhDTemplate```
+    ```cd LaTeX_MSPhDTemplate```             
     ```make```
 
 
