@@ -158,6 +158,8 @@ What if one needs colored text?
 The template provides the following 140 named colors (given with their hexadecimal notation; color scheme adopted from http://www.w3schools.com/html/html_colorvalues.asp):
 
 ```
+| Hex code | Color | Hex code | Color |
+|:---------|:------|:---------|:------|
 | #000000  | Black | #BA55D3 | MediumOrchid |
 | #000080  | Navy | #BC8F8F | RosyBrown |
 | #00008B  | DarkBlue | #BDB76B | DarkKhaki |
