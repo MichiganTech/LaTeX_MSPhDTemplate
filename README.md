@@ -102,8 +102,10 @@ How does one compile?
 
   1. Linux (or Mac) from the command line
 
-    ```cd LaTeX_MSPhDTemplate```             
-    ```make```
+```
+cd LaTeX_MSPhDTemplate
+    make
+```
 
 
 Got questions? Need help?
