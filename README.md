@@ -100,11 +100,11 @@ Which files should one edit?
 How does one compile?
 -------------------
 
-  1. Linux (or Mac) from the command line
+  1. Linux (or Mac) from the command line, using ```Makefile```
 
 ```
 cd LaTeX_MSPhDTemplate
-    make
+make
 ```
 
 
