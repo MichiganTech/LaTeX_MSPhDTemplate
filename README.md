@@ -8,10 +8,10 @@ A LaTeX template for writing MS thesis/PhD dissertation (for double-sided
 printing) in compliance with the guidelines from the Graduate School in 
 Michigan Technological University.
 
-First started in March 2007 when the author was working on PhD dissertation,
-this template has undergone many many revisions over the last several years.
-Attempts will be made to keep it updated as and when the time and resources
-permit.
+First started in March 2007 when the author was about to complete PhD 
+dissertation, this template has undergone many many revisions over the last 
+several years. Attempts will be made to keep it updated as and when the time 
+and resources permit.
 
 
 Disclaimer
