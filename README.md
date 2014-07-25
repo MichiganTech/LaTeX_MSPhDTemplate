@@ -100,14 +100,14 @@ Which files should one edit?
 How does one compile?
 -------------------
 
-Linux (or Mac) from a terminal using the command line, using ```Makefile```
+**Linux (or Mac) from a terminal using the command line, using ```Makefile```:**
 
 ```
 cd LaTeX_MSPhDTemplate
 make
 ```
 
-Linux (or Mac) from a terminal using the command line, without using ```Makefile```
+Linux (or Mac) from a terminal using the command line, without using ```Makefile```:
 
 ```
 cd LaTeX_MSPhDTemplate
@@ -121,6 +121,7 @@ dvips -R0 -Ppdf -t letter -o john_DEGREE.ps john_DEGREE.dvi
 ps2pdf -dPDFSETTINGS=/prepress -dSubsetFonts=true -dEmbedAllFonts=true -dMaxSubsetPct=100 john_DEGREE.ps john_DEGREE.pdf
 ```
 
+Mac using ```TeXMaker`` application: 
 
 Got questions? Need help?
 -------------------
