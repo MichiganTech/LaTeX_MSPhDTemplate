@@ -136,6 +136,23 @@ Navigate to ```TeXMaker » Preferences » Quick Build » Quick Build Command » 
 "/usr/local/bin/ps2pdf" -dPDFSETTINGS=/prepress -dEmbedAllFonts=true -dSubsetFonts=true -dMaxSubsetPct=100 %.ps
 ```
 
+**Windows using ```TeXMaker`` application:**
+
+Navigate to ```TeXMaker » Options » Configure TeXMaker » Quick Build » Quick Build Command » User``` (check the path to ```gs2in32c.exe```) and enter the following
+
+```
+latex -interaction=nonstopmode %.tex | 
+latex -interaction=nonstopmode %.tex | 
+bibtex % | 
+bibtex % | 
+latex -interaction=nonstopmode %.tex | 
+latex -interaction=nonstopmode %.tex | 
+dvips -Ppdf -o %.ps %.dvi | 
+"C:/Program Files (x86)/gs/gs9.00/bin/gswin32c.exe" -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -r600 -dCompatibilityLevel=1.4 
+-dPDFSETTINGS=/printer -dEmbedAllFonts=true -dSubsetFonts=true -dMaxSubsetPct=100 -sOutputFile="%.pdf" "%.ps"
+```
+
+
 Got questions? Need help?
 -------------------
 
