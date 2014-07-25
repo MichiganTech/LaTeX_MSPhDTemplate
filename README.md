@@ -123,7 +123,18 @@ ps2pdf -dPDFSETTINGS=/prepress -dSubsetFonts=true -dEmbedAllFonts=true -dMaxSubs
 
 **Mac using ```TeXMaker`` application:**
 
-Navigate to ```TeXMaker » Preferences » Quick Build » Quick Build Command » User```
+Navigate to ```TeXMaker » Preferences » Quick Build » Quick Build Command » User``` and enter the following
+
+```
+"/usr/texbin/latex" -interaction=nonstopmode %.tex | 
+"/usr/texbin/latex" -interaction=nonstopmode %.tex | 
+"/usr/texbin/bibtex" %.aux | 
+"/usr/texbin/bibtex" %.aux | 
+"/usr/texbin/latex" -interaction=nonstopmode %.tex | 
+"/usr/texbin/latex" -interaction=nonstopmode %.tex | 
+"/usr/texbin/dvips" -Ppdf -o %.ps %.dvi | 
+"/usr/local/bin/ps2pdf" -dPDFSETTINGS=/prepress -dEmbedAllFonts=true -dSubsetFonts=true -dMaxSubsetPct=100 %.ps
+```
 
 Got questions? Need help?
 -------------------
