@@ -384,7 +384,7 @@
 % Dedication
 \newcommand{\dedication}{
   \cleartooddpage[\thispagestyle{empty}]
-  \thispagestyle{plain}
+  \thispagestyle{empty}
   \phantomsection
   \section*{Dedication}
   \input{FrontMatter/Dedication}

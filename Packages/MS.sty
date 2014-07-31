@@ -40,7 +40,7 @@
   \end{center}
 
   \begin{center}
-    \uppercase\expandafter{\@university}
+    \uppercase\expandafter{\@university}\\
     \@year
   \end{center}
 
@@ -84,10 +84,11 @@
 
   \hspace{0.68in} %
   \begin{tabular}{rl}%
-    Thesis Advisor: & \hspace{0.10in}\expandafter{\@primaryadvisor}\\\\
-
-    \ifx \@coadvisor \@empty \else
-      Thesis Co-advisor:  & \hspace{0.10in}\expandafter{\@coadvisor}\\\\
+    \ifx \@coadvisor \@empty 
+      Thesis Advisor:    & \hspace{0.10in}\expandafter{\@primaryadvisor}\\\\
+    \else
+      Thesis Co-advisor: & \hspace{0.10in}\expandafter{\@primaryadvisor}\\\\
+      Thesis Co-advisor: & \hspace{0.10in}\expandafter{\@coadvisor}\\\\
     \fi
 
     \ifx \@advcommone \@empty \else
@@ -107,7 +108,7 @@
     \fi
 
     \ifx \@departmentchair \@empty 
-      Dean: & \hspace{0.10in}\expandafter{\@schooldean}\\\\
+      School Dean: & \hspace{0.10in}\expandafter{\@schooldean}\\\\
     \else
       Department Chair: & \hspace{0.10in}\expandafter{\@departmentchair}\\\\
     \fi

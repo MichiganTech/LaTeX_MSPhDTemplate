@@ -84,10 +84,11 @@
 
   \hspace{0.68in} %
   \begin{tabular}{rl}%
-    Dissertation Advisor: & \hspace{0.10in}\expandafter{\@primaryadvisor}\\\\
-
-    \ifx \@coadvisor \@empty \else
-      Dissertation Co-advisor:  & \hspace{0.10in}\expandafter{\@coadvisor}\\\\
+    \ifx \@coadvisor \@empty 
+      Dissertation Advisor: & \hspace{0.10in}\expandafter{\@primaryadvisor}\\\\
+    \else
+      Dissertation Co-advisor: & \hspace{0.10in}\expandafter{\@primaryadvisor}\\\\
+      Dissertation Co-advisor: & \hspace{0.10in}\expandafter{\@coadvisor}\\\\
     \fi
 
     \ifx \@advcommone \@empty \else
@@ -107,7 +108,7 @@
     \fi
 
     \ifx \@departmentchair \@empty 
-      Dean: & \hspace{0.10in}\expandafter{\@schooldean}\\\\
+      School Dean: & \hspace{0.10in}\expandafter{\@schooldean}\\\\
     \else
       Department Chair: & \hspace{0.10in}\expandafter{\@departmentchair}\\\\
     \fi
