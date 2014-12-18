@@ -17,6 +17,7 @@
 
 %
 % Packages
+\RequirePackage{etex}
 \RequirePackage{amsfonts}
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}

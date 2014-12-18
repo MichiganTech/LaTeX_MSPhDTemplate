@@ -57,60 +57,60 @@
   \cleartooddpage[\thispagestyle{empty}]
   \thispagestyle{empty}%
   This thesis has been approved in partial fulfillment of the requirements 
-  for the Degree of MASTER OF SCIENCE in 
-  \ifx \@program \@empty
-    \ifx \@department \@empty
-      \expandafter{\@school}.
-    \else
-      \expandafter{\@department}.
-    \fi
-  \else
-    \expandafter{\@program}.
-  \fi
+  for the Degree of MASTER OF SCIENCE in \expandafter{\@program}.
+% \ifx \@program \@empty
+%     \ifx \@department \@empty
+%       \expandafter{\@school}.
+%     \else
+%       \expandafter{\@department}.
+%     \fi
+%   \else
+%     \expandafter{\@program}.
+% \fi
 
   \vskip 0.50in
   \begin{flushright}
     \setstretch{1.00}%
-    \ifx \@program \@empty
+%   \ifx \@program \@empty
       \ifx \@department \@empty
         \expandafter{\@school}
       \else
         Department of \expandafter{\@department}
       \fi
-    \else
-      PROGRAM: \expandafter{\@program}
-    \fi
+%   \else
+%     PROGRAM: \expandafter{\@program}
+%   \fi
   \end{flushright}
 
   \hspace{0.68in} %
   \begin{tabular}{rl}%
     \ifx \@coadvisor \@empty 
-      Thesis Advisor:    & \hspace{0.10in}\expandafter{\@primaryadvisor}\\\\
+      Thesis Advisor:    & \hspace{0.10in}\textsl{\expandafter{\@primaryadvisor}}\\\\
     \else
-      Thesis Co-advisor: & \hspace{0.10in}\expandafter{\@primaryadvisor}\\\\
-      Thesis Co-advisor: & \hspace{0.10in}\expandafter{\@coadvisor}\\\\
+      Thesis Co-advisor: & \hspace{0.10in}\textsl{\expandafter{\@primaryadvisor}}\\\\
+      Thesis Co-advisor: & \hspace{0.10in}\textsl{\expandafter{\@coadvisor}}\\\\
     \fi
 
     \ifx \@advcommone \@empty \else
-      Committee Member:  & \hspace{0.10in}\expandafter{\@advcommone}\\\\
+      Committee Member:  & \hspace{0.10in}\textsl{\expandafter{\@advcommone}}\\\\
     \fi
 
     \ifx \@advcommtwo \@empty \else
-      Committee Member:  & \hspace{0.10in}\expandafter{\@advcommtwo}\\\\
+      Committee Member:  & \hspace{0.10in}\textsl{\expandafter{\@advcommtwo}}\\\\
     \fi
 
     \ifx \@advcommthree \@empty \else
-      Committee Member:  & \hspace{0.10in}\expandafter{\@advcommthree}\\\\
+      Committee Member:  & \hspace{0.10in}\textsl{\expandafter{\@advcommthree}}\\\\
     \fi
 
     \ifx \@advcommfour \@empty \else
-      Committee Member: & \hspace{0.10in}\expandafter{\@advcommfour}\\\\ 
+      Committee Member: & \hspace{0.10in}\textsl{\expandafter{\@advcommfour}}\\\\ 
     \fi
 
     \ifx \@departmentchair \@empty 
-      School Dean: & \hspace{0.10in}\expandafter{\@schooldean}\\\\
+      School Dean: & \hspace{0.10in}\textsl{\expandafter{\@schooldean}}\\\\
     \else
-      Department Chair: & \hspace{0.10in}\expandafter{\@departmentchair}\\\\
+      Department Chair: & \hspace{0.10in}\textsl{\expandafter{\@departmentchair}}\\\\
     \fi
 
   \end{tabular}%
