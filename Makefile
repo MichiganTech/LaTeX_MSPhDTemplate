@@ -143,7 +143,11 @@ ps: $(MAINFILE).dvi
 	@echo
 	@echo "  Fixing any Gnuplot mess"
 	@echo
+	# If using a Mac, comment the line below, and uncomment the commented
+	# lines
 	$(SED) -i '/^SDict begin \[$$/,/^end$$/d' $(MAINFILE).ps
+	# $(SED) '/^SDict begin \[$$/,/^end$$/d' $(MAINFILE).ps > $(MAINFILE)_tmp.ps
+	# mv $(MAINFILE)_tmp.ps $(MAINFILE).ps
 
 pdf: $(MAINFILE).ps
 	@echo
