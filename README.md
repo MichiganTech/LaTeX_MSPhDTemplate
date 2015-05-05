@@ -239,6 +239,8 @@ The template provides the following 140 named colors (given with their hexadecim
 Got questions? Need help?
 -------------------
 
+Refer to the [Guide to completing a graduate degree and preparing and submitting a dissertation, thesis, or report at Michigan Technological University](http://www.mtu.edu/gradschool/administration/academics/thesis-dissertation/pdfs/guide.pdf). 
+
 DO NOT send your questions, comments and/or concerns about this template to 
 the Graduate School. Instead, contact the author.
 
