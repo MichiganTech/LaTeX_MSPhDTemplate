@@ -5,8 +5,8 @@ What is this?
 -------------------
 
 A LaTeX template for writing MS thesis/PhD dissertation (for double-sided 
-printing) in compliance with the guidelines from the Graduate School in 
-Michigan Technological University.
+printing) in compliance with the [guidelines from the Graduate School in 
+Michigan Technological University](http://www.mtu.edu/gradschool/administration/academics/thesis-dissertation/pdfs/guide.pdf).
 
 First started in March 2007 when the author was typsetting PhD dissertation, 
 this template has undergone many many revisions over the last several years. 
