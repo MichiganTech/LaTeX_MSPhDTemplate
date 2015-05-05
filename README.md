@@ -84,7 +84,7 @@ Which files should one edit?
 
      One may refer to the list of [departments](http://www.mtu.edu/departments/) and [programs](http://www.mtu.edu/gradschool/programs/degrees/a-z/).
 
-  4. Update ```FrontMatter/Abstract.tex```, ```FrontMatter/Acknowledgments.tex```, ```FrontMatter/Dedication.tex``` and ```FrontMatter/Preface.tex``` with relevant information.
+  4. Update ```FrontMatter/Abbreviations.tex```, ```FrontMatter/Abstract.tex```, ```FrontMatter/Acknowledgments.tex```, ```FrontMatter/Dedication.tex```, ```FrontMatter/Definitions.tex``` and ```FrontMatter/Preface.tex``` with relevant information.
 
   5. Update ```Chapters/Chapter?.tex``` with relevant information.
 
