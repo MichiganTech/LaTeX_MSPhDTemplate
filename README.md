@@ -48,6 +48,9 @@ the template provides the following:
   5. Ability to make a timestamp-based snapshot of the entire folder via
      the command ```make snapshot```.
 
+Neither this template nor its author, however, will typeset your report,
+thesis or dissertation for you. You are responsible for it.
+
 
 What all does one need to get started?
 -------------------
@@ -248,7 +251,7 @@ the Graduate School. Instead, contact the author.
 Author
 -------------------
 
-Gowtham          
+Dr. Gowtham, PhD          
 Director of Research Computing, IT             
 Adj. Asst. Professor, Physics/ECE               
 Michigan Technological University                 
