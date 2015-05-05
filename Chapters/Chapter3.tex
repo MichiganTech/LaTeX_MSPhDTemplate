@@ -61,9 +61,9 @@ appellantur. Vix et eros ancillae pertinax.
 \begin{figure}[htb]
   \begin{center}
     \includegraphics[width=0.95\textwidth]{RandomDistribution}
-    \caption{Distribution of random numbers}
-    \label{CHAPTER3_FIG01}
   \end{center}
+  \caption{Distribution of random numbers}
+  \label{CHAPTER3_FIG01}
 \end{figure}
 
 In mel modo dicam vocibus, eruditi consectetuer vim no, cu quaestio 
@@ -141,6 +141,80 @@ Splendide elaboraret comprehensam qui ne. Putant verterem no vim, mea solum
 veritus definitiones ei, no labitur propriae deseruisse est. Ius illud everti 
 salutandi id, eu facer pericula principes est.
 
+\begin{figure}[htb]
+  \begin{center}
+    \begin{tikzpicture}[x={(0.866cm,-0.5cm)},
+      y={(0.866cm,0.5cm)}, z={(0cm,1cm)}, scale=0.80]
+      \tikzstyle{paddle}=[very thick, fill=white]
+      \coordinate (O) at (0, 0, 0);
+
+      % fiber in
+      \draw[thick] (0,-1.5,0) to[out=30,in=220] (1,0,0);
+
+      % first divider
+      \draw[fill=white] (1,-.4,-.5) -- (2,-.4,-.5) -- (2,-.4,.25) --
+        (1,-.4,.25) -- (1,-.4,-.5)
+        (2,-.4,.25) -- (2,.4,.25) -- (1,.4,.25) -- (1,-.4,.25)
+        (2,.4,.25) -- (2,.4,-.5) -- (2,-.4,-.5);
+
+      % first paddle
+      \draw[paddle]
+        (2,0,0) -- (4,0,0) -- (4,2,0) -- (2,2,0) -- (2,0,0) % first face
+        (2,0,0) -- (2,0,-.1)
+        (4,0,0) -- (4,0,-.1)
+        (2,0,-.1) -- (4,0,-.1) -- (4,2,-.1);
+      \draw (3,1,0) circle (.94)
+        (3,1,0) circle (.9);
+
+      % second divider
+      \draw[fill=white] (4,-.4,-.5) -- (5,-.4,-.5) -- (5,-.4,.25) --
+        (4,-.4,.25) -- (4,-.4,-.5)
+        (5,-.4,.25) -- (5,.4,.25) -- (4,.4,.25) -- (4,-.4,.25)
+        (5,.4,.25) -- (5,.4,-.5) -- (5,-.4,-.5);
+
+      % second paddle
+      \filldraw[paddle]
+        (5,0,0) -- (7,0,0) -- (7,0,2) -- (5,0,2) -- (5,0,0) % first face
+        (7,0,0) -- (7,.1,0) -- (7,.1,2) -- (5,.1,2) -- (5,0,2)
+        (7,.1,2) -- (7,0,2);
+
+      % third divider
+      \draw[fill=white] (7,-.4,-.5) -- (8,-.4,-.5) -- (8,-.4,.25) --
+        (7,-.4,.25) -- (7,-.4,-.5)
+        (8,-.4,.25) -- (8,.4,.25) -- (7,.4,.25) -- (7,-.4,.25)
+        (8,.4,.25) -- (8,.4,-.5) -- (8,-.4,-.5);
+
+      % third paddle
+      \filldraw[paddle]
+        (8,0,0) -- (10,0,0) -- (10, -1.732,1) -- (8,-1.732,1) -- (8,0,0)
+        (8,-1.732,1) -- (8,-1.732,.9) -- (10,-1.732,.9) -- (10,0,-.1) -- (10,0,0)
+        (10,-1.732,.9) -- (10,-1.732,1);
+
+      % fourth divider  
+      \draw[fill=white] (10,-.4,-.5) -- (11,-.4,-.5) -- (11,-.4,.25) --
+        (10,-.4,.25) -- (10,-.4,-.5)
+        (11,-.4,.25) -- (11,.4,.25) -- (10,.4,.25) -- (10,-.4,.25)
+        (11,.4,.25) -- (11,.4,-.5) -- (11,-.4,-.5);
+
+      \begin{scope}[x={(0.866cm,-0.5cm)},y={(0,1cm)}]
+        \draw (6,0,1) circle (.94)
+              (6,0,1) circle (.9);
+      \end{scope}
+      \begin{scope}[x={(0.866cm,-0.5cm)},y={(-.73cm,.077cm)}]
+        \draw[fill=white] (9,1) circle (.94)
+          (9,1) circle (.9);
+      \end{scope}
+
+      % fiber exit
+      \draw (11,-.05,.05) -- (11,.05,.05) --
+        (11,.05,-.05) -- (11,-.05,-.05) -- (11,-.05,.05);
+      \draw[thick] (10.95,0,0) to[out=-30,in=180] (12,1,-1);
+    \end{tikzpicture}
+  \end{center}
+  \caption{Fibre optics}
+  \label{CHAPTER3_FIG01}
+\end{figure}
+
 Simul noster voluptaria eam ei, sint regione pri ei. Cum no utinam equidem, 
 falli bonorum prodesset an qui. Alterum dissentiet vituperatoribus te eam, 
 eos ea suas oblique. Per ea utinam facilisi. Docendi eligendi sit et, pri ea 
@@ -160,17 +234,32 @@ zril nostro, nostro voluptatum id sea, courtesy of Wikipedia. \cite{Wikipedia}
 Adipisci molestiae vim at, eum everti accommodare eu. Duo ex maiorum 
 consetetur. Sea et vivendo concludaturque, rebum conclusionemque pro eu.
 
+Adipisci molestiae vim at, eum everti accommodare eu. Duo ex maiorum 
+consetetur. Sea et vivendo concludaturque, rebum conclusionemque pro eu. Mei 
+an everti dolorem. Per id alterum mandamus deseruisse. Copiosae evertitur eum 
+ea, atqui interesset est in. Vim magna munere nostrum an, cu congue equidem 
+est. Mediocrem reformidans ne mel. Et summo nihil mel, an nam postea 
+incorrupte an everti dolorem. Per id alterum mandamus deseruisse. Copiosae 
+evertitur eum ea, atqui interesset est in. Vim magna munere nostrum an, cu 
+congue equidem est. Mediocrem reformidans ne mel. Et summo nihil mel, an nam 
+postea incorrupte. Mediocrem reformidans ne mel. Et summo nihil mel, an nam 
+postea incorrupte an everti dolorem. 
+
+Per id alterum mandamus deseruisse. Copiosae evertitur eum ea, atqui 
+interesset est in. Vim magna munere nostrum an, cu congue equidem est. 
+Mediocrem reformidans ne mel. Et summo nihil mel, an nam postea incorrupte.
+
 \begin{landscape}
   \begin{figure}[hbt]
     \begin{center}
       \includegraphics[height=4.25in]{TurboProp}
-      \vspace{0.10in}
-      \caption{A landscape view of a Turboprop engine - these are 
-        jet engine derivatives, still gas turbines, that extract 
-        work from the hot-exhaust jet to turn a rotating shaft, 
-        which is then used to produce thrust by some other means}
-      \label{CHAPTER3_FIG01}
     \end{center}
+    \vspace{0.10in}
+    \caption{A landscape view of a Turboprop engine - these are 
+      jet engine derivatives, still gas turbines, that extract 
+      work from the hot-exhaust jet to turn a rotating shaft, 
+      which is then used to produce thrust by some other means}
+    \label{CHAPTER3_FIG03}
   \end{figure}
 \end{landscape}
 

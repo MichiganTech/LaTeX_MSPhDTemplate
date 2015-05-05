@@ -28,15 +28,7 @@
     A THESIS\\
     Submitted in partial fulfillment of the requirements for the degree of\\
     MASTER OF SCIENCE\\
-    \ifx \@program \@empty
-      \ifx \@department \@empty 
-        In \expandafter{\@school}
-      \else
-        In \expandafter{\@department}
-      \fi
-    \else
-      In \expandafter{\@program}
-    \fi
+    In \expandafter{\@program}
   \end{center}
 
   \begin{center}
@@ -58,28 +50,15 @@
   \thispagestyle{empty}%
   This thesis has been approved in partial fulfillment of the requirements 
   for the Degree of MASTER OF SCIENCE in \expandafter{\@program}.
-% \ifx \@program \@empty
-%     \ifx \@department \@empty
-%       \expandafter{\@school}.
-%     \else
-%       \expandafter{\@department}.
-%     \fi
-%   \else
-%     \expandafter{\@program}.
-% \fi
 
   \vskip 0.50in
   \begin{flushright}
     \setstretch{1.00}%
-%   \ifx \@program \@empty
-      \ifx \@department \@empty
-        \expandafter{\@school}
-      \else
-        Department of \expandafter{\@department}
-      \fi
-%   \else
-%     PROGRAM: \expandafter{\@program}
-%   \fi
+    \ifx \@department \@empty
+      \expandafter{\@school}
+    \else
+      \expandafter{\@department}
+    \fi
   \end{flushright}
 
   \hspace{0.68in} %
@@ -104,17 +83,16 @@
     \fi
 
     \ifx \@advcommfour \@empty \else
-      Committee Member: & \hspace{0.10in}\textsl{\expandafter{\@advcommfour}}\\\\ 
+      Committee Member:  & \hspace{0.10in}\textsl{\expandafter{\@advcommfour}}\\\\ 
     \fi
 
     \ifx \@departmentchair \@empty 
-      School Dean: & \hspace{0.10in}\textsl{\expandafter{\@schooldean}}\\\\
+      School Dean:       & \hspace{0.10in}\textsl{\expandafter{\@schooldean}}\\\\
     \else
-      Department Chair: & \hspace{0.10in}\textsl{\expandafter{\@departmentchair}}\\\\
+      Department Chair:  & \hspace{0.10in}\textsl{\expandafter{\@departmentchair}}\\\\
     \fi
 
   \end{tabular}%
   \renewcommand{\baselinestretch}{\lineheight}%
   \newpage
-
 }

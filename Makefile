@@ -128,12 +128,12 @@ all:
 dvi: $(MAINFILE).tex $(TEXFILES) $(CLASSFILE) $(STYLEFILES)
 	@echo
 	@echo "  LaTeX --> DVI"
-	$(LATEX)  $(MAINFILE)
-	$(LATEX)  $(MAINFILE)
+	$(LATEX)  --shell-escape $(MAINFILE)
+	$(LATEX)  --shell-escape $(MAINFILE)
 	$(BIBTEX) $(MAINFILE)
 	$(BIBTEX) $(MAINFILE)
-	$(LATEX)  $(MAINFILE)
-	$(LATEX)  $(MAINFILE)
+	$(LATEX)  --shell-escape $(MAINFILE)
+	$(LATEX)  --shell-escape $(MAINFILE)
 
 ps: $(MAINFILE).dvi
 	@echo
@@ -173,4 +173,6 @@ clean:
 	for tmpfile in $(TMPFILES); do ( $(RM) -f $(MAINFILE).$$tmpfile* ); done
 	@echo
 	for folder in $(FOLDERS); do ( cd $$folder; for tmpfile in $(TMPFILES); do ( $(RM) -f *.$$tmpfile* ); done ); done
+	@echo
+	rm -f *.gnuplot *.table
 	@echo

@@ -36,6 +36,45 @@ dolores convenire te. Sed altera placerat an, id verterem abhorreant
 interesset mea. Eum at ceteros efficiantur. Eos id voluptaria efficiendi 
 comprehensam. \cite{CPMD_01}
 
+\begin{figure}[htb]
+  \begin{center}
+    \begin{tikzpicture}[scale=0.60, every node/.style={scale=0.60}]
+      \path[mindmap,concept color=Black,text=White]
+      node[concept] {\begin{equation*}\sum_{i,j=1}^{M,N}\,\alpha_{ij}\,\beta_{ji}\,=\,?\end{equation*}}
+      [clockwise from=0]
+      child[concept color=RoyalBlue!65!Black] { node[concept] {A1}
+        [clockwise from=90]
+        child { node[concept] {ABCD} }
+        child { node[concept] {EFGH} }
+        child { node[concept] {IJKL} }
+      }
+      child[concept color=OrangeRed!65!Black] { node[concept] {B2}
+        [clockwise from=0]
+        child { node[concept] {TUVWX} }
+        child { node[concept] {YZABC} }
+      }
+      child[concept color=DarkGoldenRod!65!Black] { node[concept] {C3}
+        [clockwise from=-45]
+        child { node[concept] {123} }
+        child { node[concept] {789} }
+      }
+      child[concept color=Plum!65!Black] { node[concept] {D4}
+        [clockwise from=-90]
+        child { node[concept] {$\alpha$} }
+        child { node[concept] {$\beta\,\gamma$} }
+        child { node[concept] {$\pi$} }
+        child { node[concept] {$\eta$} }
+      }
+      child[concept color=ForestGreen!65!Black] { node[concept] {$\nabla\,\psi \,=\, \delta\,\phi$}
+      }
+      child[concept color=LightCoral!65!Black] { node[concept] {\begin{equation*}\int_{0}^{\infty}\,\frac{1}{x}\,dx\end{equation*}}
+      } ;
+    \end{tikzpicture}
+  \end{center}
+  \caption{Schematic representation of our universe}
+  \label{CHAPTER1_FIG01}
+\end{figure}
+
 In mel modo dicam vocibus, eruditi consectetuer vim no, cu quaestio 
 instructior eum. Justo nostrud fuisset ea mea, eam an libris repudiandae 
 vituperatoribus. Est choro corrumpit definitionem at. Vel sint adhuc vocibus 
@@ -55,6 +94,24 @@ comprehensam qui ne. Putant verterem no vim, mea solum veritus definitiones
 ei, no labitur propriae deseruisse est. Ius illud everti salutandi id, eu 
 facer pericula principes est.
 
+\begin{figure}[htb]
+  \begin{center}
+    \begin{tikzpicture}[domain=0:4]
+      \draw[very thin,color=gray] (-0.1,-1.1) grid (3.9,3.9);
+      \draw[->] (-0.2,0) -- (4.2,0) node[right] {$x$};
+      \draw[->] (0,-1.2) -- (0,4.2) node[above] {$f(x)$};
+      \draw[color=red] plot[id=x] function{x}
+        node[right] {$x$};
+      \draw[color=blue] plot[id=sin] function{sin(x)}
+        node[right] {$\sin x$};
+      \draw[color=orange] plot[id=exp] function{0.05*exp(x)}
+        node[right] {$\frac{1}{20} \mathrm e^x$};
+    \end{tikzpicture}
+  \end{center}
+  \caption{Mathematical functions plotted using TikZ package}
+  \label{CHAPTER1_FIG02}
+\end{figure}
+
 Simul noster voluptaria eam ei, sint regione pri ei. Cum no utinam equidem, 
 falli bonorum prodesset an qui. Alterum dissentiet vituperatoribus te eam, 
 eos ea suas oblique. Per ea utinam facilisi. \cite{DMOL3_02,HPL_01,HPL_02}
@@ -66,6 +123,27 @@ Docendi eligendi sit et, pri ea dicam eligendi percipitur, has soleat
 dolores convenire te. Sed altera placerat an, id verterem abhorreant 
 interesset mea. Eum at ceteros efficiantur. Eos id voluptaria efficiendi 
 comprehensam. \cite{HPL_DGEMM_01,HPL_DGEMM_02}
+
+\begin{figure}[hbt]
+  \begin{center}
+    \begin{tikzpicture}[>=latex,scale=1.0]
+      \shade[ball color=gray!10!] (0,0) coordinate(Hp) circle (.9) ;
+      \shade[ball color=gray!10!] (2,-1.53) coordinate(O) circle (1.62) ;
+      \shade[ball color=gray!10!] (4,0) coordinate(Hm) circle (.9) ;
+      \draw[thick,dashed] (0,0) -- (2,-1.53) -- (4,0) ;
+      \draw[thick] (2,.2) -- (2,1.5) node[right]{$\mathbf{p}$} ;
+      \draw (2.48,-1.2) arc (33:142:.6)  ;
+      \draw (2,-.95) node[above]{$105^{\circ}$} ;
+      \draw (0,.2) node[left]{H$^+$} ;
+      \draw (4,.2) node[right]{H$^-$} ;
+      \draw (2,-1.63) node[below]{O$^{2-}$} ;
+      \foreach \point in {O,Hp,Hm}
+        \fill [black] (\point) circle (2pt) ;
+    \end{tikzpicture}
+  \end{center}
+  \caption{Schematic representation of a water molecule}
+  \label{CHAPTER1_FIG03}
+\end{figure}
 
 In mel modo dicam vocibus, eruditi consectetuer vim no, cu quaestio 
 instructior eum. Justo nostrud fuisset ea mea, eam an libris repudiandae 

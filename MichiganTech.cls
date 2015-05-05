@@ -49,6 +49,7 @@
 \RequirePackage{setspace}
 \RequirePackage{subfigure}
 \RequirePackage{textcomp}
+\RequirePackage{tikz}
 \RequirePackage{titlesec}
 \RequirePackage[nottoc]{tocbibind}
 \RequirePackage[subfigure]{tocloft}
@@ -57,6 +58,7 @@
 \RequirePackage{wrapfig}
 \RequirePackage[bookmarks,linktocpage]{hyperref}
 \RequirePackage{breakurl}
+\usetikzlibrary{arrows,calc,chains,decorations,decorations.fractals,decorations.pathreplacing,decorations.pathmorphing,fadings,fit,intersections,matrix,mindmap,plotmarks,positioning,shapes,shadows,tikzmark,trees}
 
 %
 % Process Degree=MS|PhD option in document class and load appropriate style 
@@ -356,6 +358,18 @@
 }
 
 %
+% Abbreviations
+\newcommand{\abbreviations}{
+  \cleartooddpage[\thispagestyle{empty}]
+  \thispagestyle{plain}
+  \phantomsection
+  \section*{List of Abbreviations}
+  \addcontentsline{toc}{chapter}{List of Abbreviations}
+  \input{FrontMatter/Abbreviations}
+  \newpage
+}
+
+%
 % Abstract
 \renewcommand{\abstract}{
   \cleartooddpage[\thispagestyle{empty}]
@@ -389,6 +403,18 @@
   \phantomsection
   \section*{Dedication}
   \input{FrontMatter/Dedication}
+  \newpage
+}
+
+%
+% Definitions
+\newcommand{\definitions}{
+  \cleartooddpage[\thispagestyle{empty}]
+  \thispagestyle{empty}
+  \phantomsection
+  \section*{Definitions}
+  \addcontentsline{toc}{chapter}{Definitions}
+  \input{FrontMatter/Definitions}
   \newpage
 }
 
