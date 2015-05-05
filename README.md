@@ -113,12 +113,12 @@ make
 
 ```
 cd LaTeX_MSPhDTemplate
-latex john_DEGREE
-latex john_DEGREE
+latex --shell-escape john_DEGREE
+latex --shell-escape john_DEGREE
 bibtex john_DEGREE
 bibtex john_DEGREE
-latex john_DEGREE
-latex john_DEGREE
+latex --shell-escape john_DEGREE
+latex --shell-escape john_DEGREE
 dvips -R0 -Ppdf -t letter -o john_DEGREE.ps john_DEGREE.dvi
 ps2pdf -dPDFSETTINGS=/prepress -dSubsetFonts=true -dEmbedAllFonts=true -dMaxSubsetPct=100 john_DEGREE.ps john_DEGREE.pdf
 ```
