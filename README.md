@@ -85,7 +85,7 @@ Which files should one edit?
 
   3. Update ```Personalize/Personalize.tex``` with relevant information.
 
-     One may refer to the list of [departments](http://www.mtu.edu/departments/) and [programs](http://www.mtu.edu/gradschool/programs/degrees/a-z/).
+     One may use the relevant sample ```Personalize_*.tex``` as a starting point OR refer to the list of [departments](http://www.mtu.edu/departments/) and [programs](http://www.mtu.edu/gradschool/programs/degrees/a-z/).
 
   4. Update ```FrontMatter/Abbreviations.tex```, ```FrontMatter/Abstract.tex```, ```FrontMatter/Acknowledgments.tex```, ```FrontMatter/Dedication.tex```, ```FrontMatter/Definitions.tex``` and ```FrontMatter/Preface.tex``` with relevant information.
 
