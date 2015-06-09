@@ -419,6 +419,18 @@
 }
 
 %
+% Nomenclature
+\newcommand{\nomenclature}{
+  \cleartooddpage[\thispagestyle{empty}]
+  \thispagestyle{plain}
+  \phantomsection
+  \section*{Nomenclature}
+  \addcontentsline{toc}{chapter}{Nomenclature}
+  \input{FrontMatter/Nomenclature}
+  \newpage
+}
+
+%
 % Preface
 \newcommand{\preface}{
   \cleartooddpage[\thispagestyle{empty}]
