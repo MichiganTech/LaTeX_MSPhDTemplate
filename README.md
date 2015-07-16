@@ -253,7 +253,11 @@ Don't like this template OR have an idea to improve?
 -------------------
 
 Feel free to clone/fork this repository and make changes to fit your needs. 
-You have my explicit permission to do so.
+You have my explicit permission to do so. This template and/or the changes 
+you make may very well work for you (or your institution). Please note that
+if you decide to do so, you are doing so entirely at your very own discretion 
+and that neither the author nor Michigan Technological University is 
+responsible for any/all damage – intellectual and/or otherwise.
 
 
 Author
