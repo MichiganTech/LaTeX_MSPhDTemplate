@@ -249,6 +249,13 @@ the Graduate School. [Google](http://google.com/) search often provides a
 quick and reliable answer. If all else fails, then contact the author.
 
 
+Don't like what this template does OR have an idea to improve?
+-------------------
+
+Feel free to clone/fork this repository and make changes to fit your needs. 
+You have my explicit permission to do so.
+
+
 Author
 -------------------
 
