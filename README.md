@@ -143,7 +143,7 @@ Navigate to ```TeXMaker » Preferences » Quick Build » Quick Build Command » 
 
 **Windows using ```TeXMaker``` application:**
 
-Navigate to ```TeXMaker » Options » Configure TeXMaker » Quick Build » Quick Build Command » User``` (check the path to ```gs2in32c.exe```) and enter the following
+Navigate to ```TeXMaker » Options » Configure TeXMaker » Quick Build » Quick Build Command » User``` (check the path to ```gswin32c.exe```) and enter the following
 
 ```
 latex -interaction=nonstopmode %.tex | 
