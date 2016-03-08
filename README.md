@@ -143,7 +143,7 @@ Navigate to ```TeXMaker » Preferences » Quick Build » Quick Build Command » 
 
 **Windows using ```TeXMaker``` application:**
 
-Navigate to ```TeXMaker » Options » Configure TeXMaker » Quick Build » Quick Build Command » User``` (check the path to ```gswin32c.exe```; thanks to Henriette Groenvik for bringing a typographical error to author's attention) and enter the following
+Navigate to ```TeXMaker » Options » Configure TeXMaker » Quick Build » Quick Build Command » User``` (recent and stable version of GhostScript, GhostPCL, GhostXPS and MuPDF can be downloaded from http://ghostscript.com/; check the path to ```gswin32c.exe```; thanks to Henriette Groenvik for bringing a typographical error to author's attention;) and enter the following
 
 ```
 latex -interaction=nonstopmode %.tex | 
