@@ -35,18 +35,18 @@ Apart from modularizing the document preparation process, and producing title
 and signature pages, etc. in compliance with the Graduate School requirements, 
 the template provides the following:
 
-  1. Ability to accommodate up to two advisors.
+  1. Ability to accommodate up to two advisors
 
-  2. Ability to accommodate up to four advisory committee members.
+  2. Ability to accommodate up to four advisory committee members
 
   3. Embdedded fonts -- the PDF looks the same when printed as it looks 
-     when it’s viewed on computer.
+     when it’s viewed on computer
 
   4. If using Linux/UNIX or Mac, the process of generating the PDF could 
-     be as simple as typing ```make```.
+     be as simple as typing ```make```
 
   5. Ability to make a timestamp-based snapshot of the entire folder via
-     the command ```make snapshot```.
+     the command ```make snapshot```
 
 Neither this template nor its author, however, will typeset your report,
 thesis or dissertation for you. You are responsible for it.
@@ -58,48 +58,48 @@ What all does one need to get started?
   1. As complete an installation of LaTeX as possible.
 
      1. [TeXLive](http://www.tug.org/texlive/) for Linux and Mac, and
-        [MiKTeX](http://miktex.org/) for Windows. 
+        [MiKTeX](http://miktex.org/) for Windows
 
      2. [TeXMaker](http://www.xm1math.net/texmaker/) -- a LaTeX-aware text 
-        editor -- for Linux, Mac and Windows.
+        editor -- for Linux, Mac and Windows
 
-  2. This template in its entirety.
+  2. This template in its entirety
 
-  3. Basic understanding of how LaTeX works.
+  3. Basic understanding of how LaTeX works
 
 
 Which files should one edit?
 -------------------
 
-  1. Rename (not just copy over) ```john_DEGREE.tex``` by substituting ```john``` with your Michigan Tech ISO username, and ```DEGREE``` with either ```MS``` or ```PhD```.
+  1. Rename (not just copy over) ```john_DEGREE.tex``` by substituting ```john``` with your Michigan Tech ISO username, and ```DEGREE``` with either ```MS``` or ```PhD```
 
   2. Open the renamed ```john_DEGREE.tex```
 
-     1. Iff writing a MS thesis, then change ```\documentclass[Degree=PhD]{MichiganTech}``` to ```\documentclass[Degree=MS]{MichiganTech}```.
+     1. Iff writing a MS thesis, then change ```\documentclass[Degree=PhD]{MichiganTech}``` to ```\documentclass[Degree=MS]{MichiganTech}```
 
-     2. Comment the lines marked ```% Optional``` under ```Front Matter``` section if there is a need.
+     2. Comment the lines marked ```% Optional``` under ```Front Matter``` section if there is a need
 
-     3. Remove some or add more chapters under ```Chapters``` section as needed.
+     3. Remove some or add more chapters under ```Chapters``` section as needed
 
-     4. Remove some or add more appendices under ```Appendices``` section as needed.
+     4. Remove some or add more appendices under ```Appendices``` section as needed
 
-  3. Update ```Personalize/Personalize.tex``` with relevant information.
+  3. Update ```Personalize/Personalize.tex``` with relevant information
 
-     One may use the relevant sample ```Personalize_*.tex``` as a starting point OR refer to the list of [departments](http://www.mtu.edu/departments/) and [programs](http://www.mtu.edu/gradschool/programs/degrees/a-z/).
+     One may use the relevant sample ```Personalize_*.tex``` as a starting point OR refer to the list of [departments](http://www.mtu.edu/departments/) and [programs](http://www.mtu.edu/gradschool/programs/degrees/a-z/)
 
-  4. Update ```FrontMatter/Abbreviations.tex```, ```FrontMatter/Abstract.tex```, ```FrontMatter/Acknowledgments.tex```, ```FrontMatter/Dedication.tex```, ```FrontMatter/Definitions.tex``` and ```FrontMatter/Preface.tex``` with relevant information.
+  4. Update ```FrontMatter/Abbreviations.tex```, ```FrontMatter/Abstract.tex```, ```FrontMatter/Acknowledgments.tex```, ```FrontMatter/Dedication.tex```, ```FrontMatter/Definitions.tex``` and ```FrontMatter/Preface.tex``` with relevant information
 
-  5. Update ```Chapters/Chapter?.tex``` with relevant information.
+  5. Update ```Chapters/Chapter?.tex``` with relevant information
 
-  6. Save all references in ```References/References.bib``` with relevant information. 
+  6. Save all references in ```References/References.bib``` with relevant information
 
-  7. Change ```\bibliographystyle{jpc}``` in ```References/References.tex``` to something else to produce the required format for references.
+  7. Change ```\bibliographystyle{jpc}``` in ```References/References.tex``` to something else to produce the required format for references
 
-  8. Update ```Appendices/Appendix?.tex``` with relevant information.
+  8. Update ```Appendices/Appendix?.tex``` with relevant information
 
-  9. Place all figures in ```Figures``` folder.
+  9. Place all figures in ```Figures``` folder
 
-  10. Update ```MichiganTech.cls``` and/or ```Packages/*.sty``` iff there is a need, and iff there is an understanding of how the LaTeX class/style file works.
+  10. Update ```MichiganTech.cls``` and/or ```Packages/*.sty``` iff there is a need, and iff there is an understanding of how the LaTeX class/style file works
 
 
 How does one compile?
