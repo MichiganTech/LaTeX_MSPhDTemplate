@@ -117,8 +117,6 @@ make
 ```
 cd LaTeX_MSPhDTemplate
 latex --shell-escape john_DEGREE
-latex --shell-escape john_DEGREE
-bibtex john_DEGREE
 bibtex john_DEGREE
 latex --shell-escape john_DEGREE
 latex --shell-escape john_DEGREE
@@ -132,8 +130,6 @@ Navigate to ```TeXMaker » Preferences » Quick Build » Quick Build Command » 
 
 ```
 "/usr/texbin/latex" -interaction=nonstopmode %.tex | 
-"/usr/texbin/latex" -interaction=nonstopmode %.tex | 
-"/usr/texbin/bibtex" %.aux | 
 "/usr/texbin/bibtex" %.aux | 
 "/usr/texbin/latex" -interaction=nonstopmode %.tex | 
 "/usr/texbin/latex" -interaction=nonstopmode %.tex | 
@@ -147,8 +143,6 @@ Navigate to ```TeXMaker » Options » Configure TeXMaker » Quick Build » Quick
 
 ```
 latex -interaction=nonstopmode %.tex | 
-latex -interaction=nonstopmode %.tex | 
-bibtex % | 
 bibtex % | 
 latex -interaction=nonstopmode %.tex | 
 latex -interaction=nonstopmode %.tex | 
