@@ -200,7 +200,7 @@ The template provides the following 140 named colors (given with their hexadecim
 | #6B8E23  | OliveDrab         | #FAF0E6  | Linen                |
 | #708090  | SlateGray         | #FAFAD2  | LightGoldenRodYellow |
 | #778899  | LightSlateGray    | #FDF5E6  | OldLace              |
-| #7B68EE  | MediumSlateBlue   | #FF0000  | Red                  |
+| #7B68EE  | MediumSlateBlue   | #FF0000  | ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Red                  |
 | #7CFC00  | LawnGreen         | #FF00FF  | Fuchsia              |
 | #7FFF00  | Chartreuse        | #FF00FF  | Magenta              |
 | #7FFFD4  | Aquamarine        | #FF1493  | DeepPink             |
