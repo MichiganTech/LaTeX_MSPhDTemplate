@@ -157,7 +157,8 @@ What if one needs colored text?
 The template provides the following 140 named colors (given with their hexadecimal notation; color scheme adopted from http://www.w3schools.com/html/html_colorvalues.asp). Example usage: 
 
 ```\textcolor{Color}{colored text}```
-
+<!-- Following color code list parsed using sed, used as below to add placeholder addresses  -->
+<!-- sed -i 's/#\(......\)  |/#\1  | ![#\1](https:\/\/placehold.it\/15\/\1\/000000?text=+) /g' color_table.md -->
 
 | Hex code | Color             | Hex code | Color                |
 |:---------|:------------------|:---------|:---------------------|
