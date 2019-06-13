@@ -238,8 +238,8 @@ Got questions? Need help?
 
 Refer to the [Guide to completing a graduate degree and preparing and submitting a dissertation, thesis, or report at Michigan Technological University](http://www.mtu.edu/gradschool/administration/academics/thesis-dissertation/pdfs/guide.pdf) and the [Chicago Manual Style](http://www.chicagomanualofstyle.org/). 
 
-DO NOT send your questions, comments and/or concerns about this template to 
-Michigan Tech's Graduate School or Information Technology.
+DO NOT send your comments, concerns, issues and/or questions about this
+template to Michigan Tech's Graduate School or Information Technology.
 [Google](http://google.com/) search often provides a quick and reliable answer.
 If all else fails, then contact the author. Understand that this is a pro-bono
 project. Author may very well be busy with work and life responsibilities and
