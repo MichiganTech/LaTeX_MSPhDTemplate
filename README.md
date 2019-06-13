@@ -39,7 +39,7 @@ the template provides the following:
 
   2. Ability to accommodate up to four advisory committee members
 
-  3. Embdedded fonts -- the PDF looks the same when printed as it looks 
+  3. Embdedded fonts - the PDF looks the same when printed as it looks 
      when it’s viewed on computer
 
   4. If using Linux/UNIX or Mac, the process of generating the PDF could 
@@ -60,8 +60,8 @@ What all does one need to get started?
      1. [TeXLive](http://www.tug.org/texlive/) for Linux and Mac, and
         [MiKTeX](http://miktex.org/) for Windows
 
-     2. [TeXMaker](http://www.xm1math.net/texmaker/) -- a LaTeX-aware text 
-        editor -- for Linux, Mac and Windows
+     2. [TeXMaker](http://www.xm1math.net/texmaker/) - a LaTeX-aware text 
+        editor - for Linux, Mac and Windows
 
   2. This template in its entirety
 
@@ -239,8 +239,11 @@ Got questions? Need help?
 Refer to the [Guide to completing a graduate degree and preparing and submitting a dissertation, thesis, or report at Michigan Technological University](http://www.mtu.edu/gradschool/administration/academics/thesis-dissertation/pdfs/guide.pdf) and the [Chicago Manual Style](http://www.chicagomanualofstyle.org/). 
 
 DO NOT send your questions, comments and/or concerns about this template to 
-the Graduate School. [Google](http://google.com/) search often provides a 
-quick and reliable answer. If all else fails, then contact the author.
+Michigan Tech's Graduate School or Information Technology.
+[Google](http://google.com/) search often provides a quick and reliable answer.
+If all else fails, then contact the author. Understand that this is a pro-bono
+project. Author may very well be busy with work and life responsibilities and
+as such, do not expect a quick answer/solution.
 
 
 Don't like this template OR have an idea to improve?
@@ -251,7 +254,7 @@ You have my explicit permission to do so. This template and/or the changes
 you make may very well work for you (or your institution). Please note that
 if you decide to do so, you are doing so entirely at your very own discretion 
 and that neither the author nor Michigan Technological University is 
-responsible for any/all damage -- intellectual and/or otherwise.
+responsible for any/all damage - intellectual and/or otherwise.
 
 
 Author
