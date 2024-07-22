@@ -92,7 +92,7 @@
 \setlength{\abovecaptionskip}{0.10in}  % Space above caption
 \setlength{\belowcaptionskip}{0.10in}  % Space below caption
 \setlength{\captionmargin}{0.50in}     % Left/Right margin for caption
-\setlength{\captionwidth}{5.00in}      % Caption width
+\captionsetup{width=5.00in}            % Caption width
 \setlength{\abovedisplayskip}{-0.10in} % Space before Math stuff
 \setlength{\belowdisplayskip}{-0.10in} % Space after Math stuff
 \setlength{\arraycolsep}{0.10in}       % Gap between columns of an array
