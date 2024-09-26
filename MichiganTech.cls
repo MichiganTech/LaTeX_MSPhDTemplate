@@ -40,7 +40,10 @@
 \RequirePackage{makeidx}
 \RequirePackage{multicol}
 \RequirePackage{multirow}
-\RequirePackage[square,comma,sort,numbers]{natbib}
+%Use format of American Physical Society(APS) Journals, with just 1 name before et al.
+\RequirePackage[style=phys, articletitle=false, biblabel=brackets,
+chaptertitle=false, pageranges=false, maxnames=1]{biblatex}
+
 \RequirePackage{nextpage}
 \RequirePackage{pstricks}
 \RequirePackage{pst-all}
